@@ -1,0 +1,25 @@
+body {
+    background: #f6f7f9;
+}
+
+main {
+    max-width: 1080px;
+}
+
+.resumo .card {
+    color: #6c757d;
+    font-size: .875rem;
+}
+
+.resumo span {
+    display: block;
+    color: #212529;
+    font-size: 1.75rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.conflitos code {
+    color: #212529;
+    white-space: normal;
+}

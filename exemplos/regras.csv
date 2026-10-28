@@ -1,0 +1,9 @@
+risco;descricao;lado_a;lado_b
+P2P01;Manter fornecedor x Executar pagamento;BP|XK01|XK02|FK01|FK02;F110|F-53|F-58
+P2P02;Criar pedido de compra x Registrar entrada de mercadoria;ME21N|ME22N;MIGO
+P2P03;Criar pedido de compra x Lançar fatura de fornecedor;ME21N|ME22N;MIRO
+P2P04;Aprovar pedido de compra x Lançar fatura de fornecedor;ME28|ME29N;MIRO
+O2C01;Manter cliente x Lançar recebimento;BP|XD01|XD02|FD01|FD02;F-28
+O2C02;Criar ordem de venda x Gerenciar limite de crédito;VA01|VA02;UKM_BP|FD32
+FIN01;Lançar documento contábil x Abrir e fechar períodos;FB50|FB01|F-02;OB52
+SEC01;Manter usuários x Manter funções;SU01|SU10;PFCG
